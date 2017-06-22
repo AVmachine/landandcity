@@ -29,16 +29,17 @@ body{
 	text-align: center;
 	list-style-type: none;
 	position: fixed;
-	left: 0;
+	left: 0%;
 	bottom: 50%;
 }
 
-nav #currentTab{
-	color: rgb(43, 190, 138);
-}
 nav a{
 	color: rgb(255,255,255);
 	text-decoration: none;
+}
+
+#currentTab{
+	color: rgb(43, 190, 138);
 }
 
 }
@@ -62,4 +63,10 @@ main li{
 }
 main p{
 	text-align: center;
+}
+
+img{
+	width: 30%;
+	height: 23%;
+	border-radius: 10px;
 }
