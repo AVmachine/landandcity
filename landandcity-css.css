@@ -20,14 +20,31 @@ body{
 	list-style-type: none;
 	position: fixed;
 	left: 0;
-	bottom: 200;
+	bottom: 50%;
 }
 
 nav #currentTab{
 	color: rgb(43, 190, 138);
 }
-
+nav a{
+	color: rgb(255,255,255);
+	text-decoration: none;
+}
+main{
+	margin:0 auto;
+	border: 5px solid black;
+}
 main ul{
-	text-align: center;
+	padding: 0;
+	margin: 0px auto;
+	display: block;
 	list-style-type: none;
+	width: 80px;
+	text-align: center;
+	position-bottom: 50%;
+}
+main li{
+	margin: 0px auto;
+	text-align: center;
+	margin: auto;
 }
