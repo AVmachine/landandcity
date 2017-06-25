@@ -7,7 +7,7 @@ body{
 }
 
 .container{
-	width: 60%;
+	width: 70%;
 	margin: auto;
 	overflow: auto;
 	border: 5px solid black;
@@ -21,8 +21,8 @@ body{
 }
 
 #menu{
-	width: 75px;
-	height: 100px;
+	width: 10%;
+	height: 18%;
 	border: 3px solid black;
 	border-radius: 10px;
 	padding: 2px;
@@ -32,8 +32,12 @@ body{
 	left: 0%;
 	bottom: 50%;
 }
+nav li{
+	padding: 5px;
+	font-size: 1.2em;
+}
 
-a{
+a{	
 	color: rgb(255,255,255);
 	text-decoration: none;
 }
@@ -46,33 +50,21 @@ a:hover{
 	color: rgb(43, 190, 138);
 }
 
-}
 main{
 	margin:0 auto;
 	border: 5px solid black;
+	padding-bottom: 10px;
 }
-main ul{
-	padding: 0;
-	margin: 0px auto;
-	display: block;
-	list-style-type: none;
-	width: 40%;
-	text-align: center;
-	position-bottom: 50%;
-}
-main li{
-	margin: 0px auto;
-	text-align: center;
-	margin: auto;
-}
+
 main p{
+	font-size: 1.5em;
 	text-align: center;
 	margin-right: 10%;
 	margin-left: 10%;
 }
 
 img{
-	width: 50%;
+	width: 70%;
 	display: block;
 	margin: 10px auto;
 	border-radius: 10px;
@@ -80,7 +72,7 @@ img{
 }
 iframe{
 	display: block;
-	width: 50%;
+	width: 70%;
 	border-radius: 10px;
 	margin: 10px auto;
 }
