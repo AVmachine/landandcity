@@ -3,7 +3,7 @@ body{
 	color: rgb(255, 255, 255);
 	font-family: "Century Gothic";
 	margin: 0;
-	min-width: 60%;
+	min-width:720px;
 	padding-bottom: 100px;
 }
 
@@ -24,10 +24,9 @@ body{
 
 #menu{
 	width: 10%;
-	height: 18%;
 	border: 3px solid black;
 	border-radius: 10px;
-	padding: 2px;
+	padding: 5px;
 	text-align: center;
 	list-style-type: none;
 	position: fixed;
@@ -75,10 +74,66 @@ main p{
 	margin: 10px auto;
 	border-radius: 15px;		
 }
+
 iframe{
 	display: block;
 	width: 70%;
 	border-radius: 10px;
 	margin: 10px auto;
 	padding: 10px;
+}
+
+fieldset{
+	width: 300px;
+	padding: 20px;
+	margin: 20px auto;
+	border: 3px solid white;
+	border-radius: 5px;
+}
+
+input{
+	width: 150px;
+	border-radius: 3px;
+}
+label{
+	width: 100px;
+	float: left;
+}
+
+.radioGroup{
+	display: inline-block; /*This puppy right here helps with stacking the radio buttons*/
+}
+.radio{
+	width: 75px;
+	vertical-align: top; /*Helps with stacking radio buttons*/
+}
+
+
+input[type="radio"]{
+	width: 5px;
+	margin-left: 0px;
+	margin-right: 10px;
+
+}
+form{
+	line-height: 25px;
+}
+div input[type="submit"]{
+	color: white;
+	background-color: gray;
+	border:1px solid white;
+	font-family: "century gothic"; 
+	font-size: 1em;
+	width: 10%;
+	display: block;
+	margin: auto;
+}
+
+div input[type="submit"]:hover
+{
+	background-color: darkgrey;
+}
+div input[type="submit"]:active
+{
+	border-style: 5px inset;
 }
