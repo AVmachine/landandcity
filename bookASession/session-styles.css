@@ -25,6 +25,8 @@ body{
 	margin: auto;
 	padding: 0px;
 	border-radius: 5px;
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+	font-size: .7em;
 }
 .imageRight{
 	height: 10%;
@@ -71,7 +73,7 @@ body{
 	margin: 5px;
 }
 
-#bodyy{
+#body{
 	background-color: lightgrey;
 
 }
